@@ -1,4 +1,8 @@
+/* GLOBAL STYLING */
 html, body {
+    border: 0;
+    margin: 0;
+    padding: 0;
     height: 100%;
     min-height: 100%;
     width: 100%;
@@ -7,31 +11,34 @@ html, body {
 }
 
 body {
-    background-color: #997C67;
-    font-family: Ovo, serif;
-    font-size: 2em;
+    background-color: #e7d5b1;
+    font-family: Optima, serif;
     font-size: 100%;
 }
 
+/* SECTION STYLING */
 #nav_bar {
-    text-align: center;
-    background-color: #E3CCA1;
-    position: fixed;
-    width: 100%;
+    border: 0;
     margin: 0;
     padding: 0;
     top: 0;
     left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #997C67;
+    border-bottom: solid 1px;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 h1 {
     margin: 0;
-    padding: 0;
+    padding-bottom: 0.1em;
     text-align: center;
-    background-color: #E3CCA1;
+    background-color: #cd754c;
     font-family: cursive;
+    font-size: 2.5em;
     color: #CC5543;
-    
 }
 
 ul {
@@ -51,7 +58,7 @@ a:link {
 
 a:hover {
     opacity: 0.5;
-    color: white;
+    color: #e7d5b1;
 }
 
 a:visited {
