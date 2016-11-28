@@ -102,8 +102,14 @@ li a:visited {
     margin-top: 8em;
 }
 
+img {
+    width: 100%;
+}
 p {
     text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 150%;
+    text-indent: 2em;
 }
 
 footer {
