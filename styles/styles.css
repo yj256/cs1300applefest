@@ -1,72 +1,97 @@
+/* #F2B759 : Maximum Yellow Red
+   #60E59A : Very Light Malachite Green
+   #E15554 : Jelly Bean
+   #393E41 : Black Olive
+   #D3D0CB : Light Gray 
+*/
+
+/*  #A2E1EF : non-photo blue
+    #C9E055 : june bud
+    #F2B759 : maximum yellow red
+    #393E41 : black olive
+    #C9625A : indian red
+*/
+
+/* #E7D5B1
+*/
 /* GLOBAL STYLING */
 html, body {
     border: 0;
     margin: 0;
     padding: 0;
-    height: 100%;
-    min-height: 100%;
-    width: 100%;
-    min-width: 100%;
     vertical-align: baseline;
     text-align: center;
 }
 
 body {
-    background-color: #E7D5B1;
+    background-color: #EAEAEA;
     font-family: Optima, serif;
     font-size: 100%;
 }
 
 /* SECTION STYLING */
 #nav_bar {
-    border: 0;
-    margin: 0;
-    padding: 0;
     top: 0;
     width: 100%;
     position: fixed;
-    background-color: #E7D5B1;
-    border-bottom: solid #59484F 1.5px;
+    background-color: #EAEAEA;
+    border-bottom: solid #A2E1EF 1.5px;
     text-align: center;
     font-size: 1.1em;
 }
 
 h1 {
     margin: 0;
-    padding-bottom: 0.1em;
-    background-color: #CD754C;
+    padding: 0.2em;
+    background-color: #A2E1EF;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing:0.1em;
     font-size: 2.5em;
-    color: #E7D5B1;
+    color: #ffffff;
 }
 
-ul {
-    color: #59484F;
+h1 span {
+    color: #C9625A;
 }
 
 li {
     list-style-type: none;
     display: inline-block;
-    margin: 0px 40px 0px 40px;
+    margin: 0em 2em 0em 2em;
+    font-family: 'Exo', sans-serif;
+    letter-spacing:0.1em;
 }
 
-a:link {
+a {
     text-decoration: none;
-    color: #59484F;
+}
+
+.events {
+    color: #C9E055;
+}
+
+.food {
+    color: #F2B759;
+}
+
+.people {
+    color: #A2E1EF;
+}
+
+.directions {
+    color: #C9625A;
 }
 
 a:hover {
     opacity: 0.5;
-    color: #CD754C;
 }
 
-a:visited {
-    color: #59484F;
+li a:visited {
+    color: #393E41;
 }
 
 #container {
-    display: block;
     margin-right: auto;
     margin-left: auto;
     height: 100%;
@@ -74,15 +99,21 @@ a:visited {
 }
 
 #content {
-    padding-top: 8em;
+    margin-top: 8em;
+}
+
+p {
+    text-align: left;
 }
 
 footer {
-    display: block;
-    margin: 2px auto;
+    margin: 2em auto;
     width: 90%;
-    background-color: #874312;
-    color: #E7D5B1;
+    background-color: #A2E1EF;
+    color: #ffffff;
+    font-family: 'Exo', sans-serif;
+    letter-spacing: 0.1em;
+    padding: 0.1em;
 }
 
 /* MEDIA QUERIES */
