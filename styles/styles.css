@@ -35,7 +35,7 @@ body {
     width: 100%;
     position: fixed;
     background-color: #EAEAEA;
-    border-bottom: solid #A2E1EF 1.5px;
+    border-bottom: solid #A2E1EF 0.1em;
     text-align: center;
     font-size: 1.1em;
 }
@@ -67,8 +67,16 @@ a {
     text-decoration: none;
 }
 
+#curpage {
+    color: #393E41;
+}
+
+li .home {
+    color: #EA8388;
+}
+
 .events {
-    color: #C9E055;
+    color: #C0D847;
 }
 
 .food {
@@ -76,7 +84,7 @@ a {
 }
 
 .people {
-    color: #A2E1EF;
+    color: #83D1E2;
 }
 
 .directions {
@@ -85,10 +93,6 @@ a {
 
 a:hover {
     opacity: 0.5;
-}
-
-li a:visited {
-    color: #393E41;
 }
 
 #container {
