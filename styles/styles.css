@@ -15,14 +15,14 @@ html, body {
 }
 
 body {
-    background-color:#A2E1EF;
+    background-color: #A2E1EF;
     font-family: 'Open Sans', serif;
     font-size: 100%;
 }
 
 #welcome {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 /* SECTION STYLING */
@@ -52,10 +52,10 @@ body {
     /*image modified by Yanying Ji*/
     background-image: url(../images/bannernarrow.jpg);
     height: 100px;
-    background-position:center;
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-color:#A2E1EF;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #A2E1EF;
 }
 
 li {
@@ -63,7 +63,7 @@ li {
     display: inline-block;
     margin: 0em 2em 0em 2em;
     font-family: 'Exo', sans-serif;
-    letter-spacing:0.1em;
+    letter-spacing: 0.1em;
 }
 
 a {
@@ -111,23 +111,23 @@ footer {
     margin: 2em auto;
     width: 90%;
     background-color: #A2E1EF;
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: 'Exo', sans-serif;
     letter-spacing: 0.1em;
     padding: 0.1em;
-    display:none;
+    display: none;
 }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 480px) {
     #banner {
-        background-size:cover;
+        background-size: cover;
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     #banner {
-        background-size:cover;
+        background-size: cover;
     } 
 }
 
