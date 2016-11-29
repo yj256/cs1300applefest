@@ -48,6 +48,8 @@ body {
 }
 
 #banner {
+    /*apple from source: http://www.houzz.com/photos/6070710/Red-Apple-Watercolor-Archival-Print-by-Elf-Shoppe-contemporary-prints-and-posters*/
+    /*image modified by Yanying Ji*/
     background-image: url(../images/bannernarrow.jpg);
     height: 100px;
     background-position:center;
