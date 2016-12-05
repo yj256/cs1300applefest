@@ -306,7 +306,20 @@ li a {
 }
 
 .sec03 img{
-    width:100%;
+    width:30%;
+    margin:10px;
+    display:inline-block;
+    opacity:0.4;
+    border-radius: 15px;
+}
+
+.sec03 img:hover {
+    opacity:1;
+    border-radius:2px;
+}
+
+.long {
+    overflow:hidden;
 }
 
 .sec04 {
