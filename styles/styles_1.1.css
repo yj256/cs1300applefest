@@ -300,6 +300,14 @@ li a {
     color:#fff;
 }
 
+.sec02 .bmp {
+    float: left;
+}
+
+.sec02 .wss {
+    float: right;
+}
+
 .sec03 {
     background-color:#C9625A;
     color:#fff;
@@ -328,6 +336,10 @@ li a {
 }
 .sec04 img{
     width:100%;
+}
+
+.sec05 img{
+    width: 80%;
 }
 
 @-webkit-keyframes scroll {
