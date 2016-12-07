@@ -1,9 +1,11 @@
-/*MQ trigger*/
+/*
+MQ trigger
 @mixin small {
   @media only screen and (max-width: 766px) {
     @content;
   }
 }
+*/
 
 /*Page Style*/
 * {
@@ -189,17 +191,13 @@ li a {
     cursor: pointer;
     font-size: 20px;
     position: absolute;
+    padding-top: 15px;
     right: 22px;
     top: 0;
     width: 30px;
     -webkit-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
     transition: all 200ms ease-in;
-/*
-    @include small {
-        display: block;
-    }
-*/
 }
 
 .mobile-toggle span {
@@ -207,7 +205,7 @@ li a {
     height: 4px;
     margin-bottom: 6px;
     border-radius: 1000px;
-    background: #8f8f8f;
+    background: #FFFFFF;
     display: block;
 }
 
@@ -296,7 +294,7 @@ li a {
     font-size:1.2em;
     word-wrap:break-word;
     line-height:150%;
-    text-indent: 15px;
+/*    text-indent: 15px;*/
     overflow:hidden;
     opacity:0.8;
     margin-top:1em;
@@ -306,9 +304,11 @@ li a {
     opacity:1;
 }
 
+/*
 .sec01 p {
     text-align:left;
 }
+*/
 
 .sec01 .item1 img {
     width:120%;
