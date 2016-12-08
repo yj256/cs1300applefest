@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
         $('body').css('overflow','hidden');
     });
 
-    
+    //click anywhere for lightbox to disappear
     $(document).click(function(e) {
         var target = e.target;
         
