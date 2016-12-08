@@ -48,6 +48,7 @@ jQuery(document).ready(function ($) {
         contactNav.off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend').toggleClass('is-visible');
     });
 
+    //hide contact info nav when lightbox is showing
     $(document).click(function(e) {
         var target = e.target;
         
