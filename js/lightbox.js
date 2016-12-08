@@ -10,7 +10,6 @@ jQuery(document).ready(function ($) {
             $('.img-content').html('<img src="' + img_href + '" alt="lightbox img"/>');
             //show lightbox window
             $('.lightbox').fadeIn(300);
-            
         } else { //.lightbox does not exist
             //create html markup
             var lightbox =
@@ -35,5 +34,4 @@ jQuery(document).ready(function ($) {
             $('body').css('overflow', 'auto');
         }
     });
-    
 });

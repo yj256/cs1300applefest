@@ -1,4 +1,4 @@
-/* MEDIA QUERIES */
+/* Media Queries */
 @media screen and (max-width: 480px) {
     .lightbox {
         padding-top: 35%;
@@ -8,7 +8,7 @@
         width: 100%;
     }
     
-    .main_h nav ul{
+    .main_h nav ul {
         padding-top: 10px;
         margin-bottom: 22px;
         float: left;
@@ -91,7 +91,7 @@
         width: 100%;
     }
     
-    .main_h nav ul{
+    .main_h nav ul {
         padding-top: 10px;
         margin-bottom: 22px;
         float: left;
@@ -166,6 +166,5 @@
     }
 }
 
-@media screen and (min-width: 1201px) {
-    
+@media screen and (min-width: 1201px) {   
 }

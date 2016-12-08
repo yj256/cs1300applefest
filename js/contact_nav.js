@@ -1,13 +1,12 @@
 jQuery(document).ready(function ($) {
     "use strict";
+    
     // browser window scroll (in pixels) after which the "contact info" link is shown
     var offset = 300;
-    
     var navContainer = $('.contact-nav'),
         contactNav = navContainer.find('.contact-info');
 
     function checkContact() {
-        
         if ($(window).scrollTop() > offset && !navContainer.hasClass('is-fixed')) {
             navContainer.addClass('is-fixed').find('.contact-nav-trigger').one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function () {
                 contactNav.addClass('has-transitions');

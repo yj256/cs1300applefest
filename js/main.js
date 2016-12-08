@@ -1,5 +1,8 @@
+/* Modified code from url:http://codepen.io/MightyShaban/pen/CIfdj */ 
+
 jQuery(document).ready(function ($) {
     "use strict";
+    
     // Sticky Header
     $(window).scroll(function () {
         if ($(window).scrollTop() > 80) {
@@ -9,6 +12,7 @@ jQuery(document).ready(function ($) {
             $('.main_h').removeClass('open-nav');
         }
     });
+    
     // Mobile Navigation
     $('.mobile-toggle').click(function () {
         if ($('.main_h').hasClass('open-nav')) {
