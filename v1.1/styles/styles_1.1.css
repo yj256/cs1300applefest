@@ -59,6 +59,11 @@ table {
     display:inline-block;
 }
 
+iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+}
 .content {
 /*    padding: 50px 2% 250px;*/
     padding: 1em 2%;
@@ -131,7 +136,7 @@ table {
     background-color: rgba(162, 225, 239, 0.93);
     opacity: 1;
     top: 0px;
-    border-bottom: 1px solid lighten(#8f8f8f, 30%);
+    border-bottom: 1px solid rgba(143,143,143,0.3);
 }
 
 .logo {
@@ -270,7 +275,7 @@ li a {
 .sec01 .box {
     background-color: rgba(234,234,234,0.7);
     width:350px;
-    height:450px;
+    height:458px;
     display:inline-table;
     border-radius:15px;
     padding:0 0.9em 0 0.9em;
@@ -425,19 +430,21 @@ li a {
     padding:0;
 }
 
-.sec05 img, iframe {
+.sec05 img {
     width:100%;
     border:1px solid #8f8f8f;
     border-radius: 1%;
 }
 
-.sec05 img {
-    margin-top: 2%;
-}
-
 .sec05 iframe {
+    width:100%;
+    border-radius: 1%;
     margin-right:2%;
     margin-left:3%;
+}
+
+.sec05 img {
+    margin-top: 2%;
 }
 
 .sec05 .maps iframe, .sec05 p {
@@ -449,33 +456,4 @@ li a {
 .sec05 p {
     text-align: left;
     margin-right:3%;
-}
-
-@-webkit-keyframes scroll {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-  }
-}
-
-
-@keyframes scroll {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    transform: translateY(20px);
-  }
 }
